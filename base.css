@@ -1,0 +1,29 @@
+:root {
+    --white-color: #fff;
+    --balck-color: #000;
+    --text-color: #000;
+
+}
+* {
+    box-sizing: inherit;
+}
+html {
+    font-size: 62.5px;
+    line-height: 16px;
+     
+     box-sizing: border-box;
+}
+/* Đây là màn hình */
+.grid {
+    width: 1200px;
+    max-width: 100%;
+    margin: 0 auto;
+}
+.grid__full-width {
+    width: 100%;
+}
+/* dùng để chữ trên 1 hàng */
+.grid__row{
+    display: flex;
+    flex-wrap: wrap;
+}
